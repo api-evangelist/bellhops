@@ -1,8 +1,17 @@
 aid: bellhops
 name: Bellhops
-description: Bellhops is a company surfaced as a portfolio company of canaan-partners, initialized-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Bellhops (branded as Bellhop) is a US technology-enabled moving-services
+  company that operates an online booking platform for residential and
+  commercial relocations. Customers get a free estimate and reserve local
+  moves, long-distance relocations, hourly moving labor, packing help, and
+  last-minute moves with no money down, then manage their reservation through
+  an online dashboard staffed by background-checked movers. The company reports
+  more than 300,000 completed moves and a 4.8/5 average rating across 20,000+
+  reviews. It was surfaced as a portfolio company of Canaan Partners and
+  Initialized Capital and added to the API Evangelist network. Bellhops is a
+  consumer-facing service with no publicly documented API, developer portal, or
+  programmatic integration surface as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/bellhops/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +20,30 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://us-east-1.graphassets.com/AFtSkJF2sQZy1WJRTVW2Qz/0yE8QFruQT2aB6HPLTqK
 tags:
 - Company
+- Moving
+- Logistics
+- Relocation
+- Moving Labor
+- Consumer Services
+- Marketplace
+- Home Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bellhops-domain-security.yml
 - type: Website
-  url: http://getbellhops.com
+  url: https://www.getbellhops.com/
+- type: Blog
+  url: https://www.getbellhops.com/blog/
+- type: Support
+  url: https://help.getbellhops.com/hc/en-us
+- type: Login
+  url: https://dashboard.bellhop.com/
+- type: TermsOfService
+  url: https://www.getbellhops.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.getbellhops.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

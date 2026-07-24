@@ -1,0 +1,14 @@
+{
+  "repo": "bellhops",
+  "feeds": [
+    {
+      "source": "https://www.getbellhops.com/",
+      "feed_url": "https://www.getbellhops.com/blog/feed/",
+      "title": "",
+      "saved": 10,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-20T13:31:34Z"
+}
