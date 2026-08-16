@@ -3,19 +3,19 @@
   "feeds": [
     {
       "source": "https://www.getbellhops.com/blog/feed/",
-      "feed_url": "https://www.getbellhops.com/blog/feed/",
+      "feed_url": "https://www.getbellhops.com/blog/feed/rss/",
       "title": "",
-      "saved": 0,
-      "method": "feed"
+      "saved": 20,
+      "method": "discovered"
     },
     {
       "source": "https://www.getbellhops.com/",
-      "feed_url": "https://www.getbellhops.com/blog/feed/",
+      "feed_url": "https://www.getbellhops.com/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "none"
     }
   ],
-  "post_count": 35,
-  "fetched": "2026-08-06T14:08:46Z"
+  "post_count": 55,
+  "fetched": "2026-08-15T12:22:01Z"
 }
