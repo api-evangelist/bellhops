@@ -2,11 +2,8 @@
   "repo": "bellhops",
   "feeds": [
     {
-      "source": "https://www.getbellhops.com/blog/feed/",
-      "feed_url": "https://www.getbellhops.com/blog/feed/rss/",
-      "title": "",
-      "saved": 20,
-      "method": "discovered"
+      "source": "https://www.getbellhops.com/blog/feed/rss/",
+      "error": "TimeoutError"
     },
     {
       "source": "https://www.getbellhops.com/",
@@ -17,5 +14,5 @@
     }
   ],
   "post_count": 55,
-  "fetched": "2026-08-15T12:22:01Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
